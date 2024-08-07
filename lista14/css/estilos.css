@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    background-color: black;
+    color: white;
+    text-align: end;
+    padding: 15px;
+}
+
+header h2 {
+    background-color: gray;
+    color: white;
+    text-align: end;
+    padding: 15px;
+}
+body {
+    background-color: black;
+    
+}
+nav {
+    background-color: #7b7bfa;
+}
+
+nav ul {
+    text-align: center;
+}
+
+
+header nav ul li a:visited, a:link {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li:hover{
+    text-decoration: underline;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    padding: 15px;
+}
+
+main {
+    width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 50px;
+}
+
+main h2 {
+    padding-top: 20px;
+}
+
+main h2:hover {
+    letter-spacing: 2px;
+    transition: 1s ease-in;
+}
+main h2:not(:hover) {
+    transition: 1s ease-out;
+}
+
+main ul {
+    margin-top: 20px;
+    text-decoration: underline;
+    padding-left: 50px;
+}
+
+main ul li a:link, a:visited {
+    color: blue;
+}
+
+main p {
+    margin-top: 20px;
+}
+
+main img {
+    width: 400px;
+}
+
+.imagem {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ancora, .ancora:link, .ancora:visited{
+    color: blue;
+    text-decoration: underline;
+}
+
+.ancora {
+    margin-top: 100x;
+}
+
+.semSub {
+    text-decoration: none;
+}
+
+footer {
+    background-color: gray;
+    padding: 30px;
+    text-align: center;
+}
+
+.cor {
+    text-decoration: underline;
+    color: lightblue;
+}
+
+.cor {
+    cursor: pointer;
+}
