@@ -89,13 +89,9 @@ main img {
     text-align: center;
 }
 
-.ancora, .ancora:link, .ancora:visited{
+.ancora a:link, a:visited{
     color: blue;
     text-decoration: underline;
-}
-
-.ancora {
-    margin-top: 100x;
 }
 
 .semSub {
